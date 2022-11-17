@@ -52,7 +52,7 @@ const displayUserInputs = async (url='') => {
         document.getElementById('temp').innerHTML = `Temperature: ${data.temperature}`;
         document.getElementById('content').innerHTML= `User feelings: ${data.userResponse}`;
     }catch (error){
-        console.log("Error I'm from fucking displayUserInputs function\n", error);
+        console.log("Error I'm from displayUserInputs function\n", error);
     }
 }
 
